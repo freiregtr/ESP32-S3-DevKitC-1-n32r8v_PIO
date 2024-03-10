@@ -17,9 +17,9 @@ void setup() {
   }
 
   // Llamar a los métodos de la instancia de BoxTools
-  boxTools.initializePsram();  // Inicializar y verificar PSRAM
-  boxTools.checkPsram();       // Comprobar el tamaño de la PSRAM y cuánta está libre
-  boxTools.checkHeap();        // Comprobar cuánta memoria heap está disponible
+  boxTools.initializePsram();  
+  boxTools.checkPsram(); 
+  boxTools.checkHeap();
   boxTools.calculateSPIFFS();
   boxTools.getTotalFlashSpace();
   
@@ -27,6 +27,6 @@ void setup() {
 
 void loop() {
   
-  // put your main code here, to run repeatedly:
+  // codigo de ejemplo
 }
 
